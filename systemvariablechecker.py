@@ -6,7 +6,7 @@ root = Tk(className="System variable checker")
 root.configure(bg="black")
 root.geometry("700x100")
 #Making the text and background
-#Comment so build activates
+#Comment so build activates v2.0
 text = Text(root)
 text.insert(INSERT, "JavaHome:  ")
 text.insert(END, os.environ['JAVA_HOME'])
